@@ -2,7 +2,7 @@ import Products from './Products'
 import { Button, CardContainer, Container, Image, Info, Price, Title } from './style'
 
 
-const ProductItem = ({produtos}) => {
+const ProductItem = ({produtos, addToCart}) => {
 
 
   return (
@@ -16,7 +16,7 @@ const ProductItem = ({produtos}) => {
         <Title>{produtos.title.toUpperCase()}</Title>
         <Price> R$ {produtos.price}</Price>
         <Button
-        // onClick={() => addToCart(item)}
+        onClick={() => addToCart(produtos)}
         >Comprar</Button>
       </Info>
     </CardContainer>  

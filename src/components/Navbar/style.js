@@ -59,4 +59,14 @@ export const MenuItem = styled.div`
     margin-left: 20px;
     margin-right: 20px;
     color: white;
+   
 `
+export const ButtonCarrinhoModal = styled.button`
+border: none;
+background-color: transparent;
+
+`
+
+
+
+

@@ -47,3 +47,4 @@ export const Price = styled.span`
 font-size: 14px;
 padding-bottom: 10px;
 `
+

@@ -1,17 +1,28 @@
 import styled from 'styled-components'
 
 
+const ContainerTitle = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+height: 200px;
+`
 const Title = styled.div `
 text-align: center;
-font-size: 25px;
-margin: 3em 0;
+font-size: 35px;
+color: white;
+font-weight: 700;
+
+
+
 `
 
 const Products = () => {
   return (
-    <Title>
-      <h2>PRODUTOS</h2>
-    </Title>
+    <ContainerTitle>
+      <Title>PRODUTOS</Title>
+    </ContainerTitle>
   )
 }
 

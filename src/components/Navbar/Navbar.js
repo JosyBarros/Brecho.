@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
-import { Container, Wrapper, SearchContainer, Input, Logo, MenuItem, LogoNave, Menu, Search, Category } from './style'
+import { Container, Wrapper, SearchContainer, Input, Logo, MenuItem, LogoNave, Menu, Search, Category } from '../Navbar/style'
 import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
-import MenuCategory from '../MenuCategory/MenuCategory';
+import { ButtonCarrinhoModal } from './style';
 
-const Navbar = ({busca, setBusca}) => {
+
+const Navbar = ({busca, setBusca, count, setModalCart}) => {
 
     
 
@@ -31,9 +32,10 @@ const Navbar = ({busca, setBusca}) => {
                     <MenuItem><FavoriteBorderOutlinedIcon style={{color: "white"}}/>Lista de desejos</MenuItem>
                     <MenuItem><LogoutOutlinedIcon style={{color: "white"}}/>Entrar</MenuItem>
                     <MenuItem >
-                        <Badge badgeContent={1} color="info">
-                            <ShoppingCartOutlined />
-                        </Badge>
+                        <ButtonCarrinhoModal><Badge badgeContent={count} color="info">
+                            <ShoppingCartOutlined style={{color: "white"}} onClick={() => setModalCart(true)}/>
+                           
+                        </Badge></ButtonCarrinhoModal>
                     </MenuItem>
                 </Menu>
                

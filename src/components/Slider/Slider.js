@@ -15,7 +15,7 @@ const Slider = () => {
             setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 3)
         } else {
             setSlideIndex(slideIndex < 3 ? slideIndex + 1 : 0)
-        }
+        } 
     }
   return (
     <Container>

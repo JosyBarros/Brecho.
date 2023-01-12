@@ -3,13 +3,13 @@ import styled from "styled-components";
 
 export const ContainerFilter = styled.div`
 width: 100%;
-height: 80px;
+height: 190px;
 background-color: #f6f6f6;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 `
-export const filterCategory = styled.div`
+export const FilterCategory = styled.div`
 
 `
 export const CategoryTitle = styled.div`
