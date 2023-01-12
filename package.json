@@ -1,6 +1,6 @@
 {
   "name": "brecho-app",
-"homepage": "https://josybarros.github.io/Brecho./"
+  "homepage": "https://josybarros.github.io/Brecho./", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
