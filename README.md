@@ -1,6 +1,6 @@
 # Brecho.
 
-Esse é o projeto de introdução aos fundamentos do React. Aqui, pude praticar a estrutura do React. O objetivo era que funcione como o front-end de um E-Commerce
+Esse é o projeto de introdução aos fundamentos do React. Aqui, pude praticar a estrutura do React. O objetivo era para funcionar como um front-end de um ecommerce.
 
 - JSX
 - Componentes
@@ -11,7 +11,7 @@ Esse é o projeto de introdução aos fundamentos do React. Aqui, pude praticar 
 - Renderização condicional
 - localStorage
 
-O projeto consistirá em 3 grandes partes:
+O projeto consistitui  em tres grandes partes:
 
 1. Home
     - Mostrando todos os produtos
