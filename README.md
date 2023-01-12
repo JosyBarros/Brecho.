@@ -37,7 +37,7 @@ https://josybarros22.github.io/Projeto-ecommerce-brecho/
 
 ## 📑 Sobre o projeto
 
-Qual o intuito do projeto? Foi realizado como estudos, processo seletivo, atividade curricular? Exponha brevemente.
+O intuito do projeto foi realizado como estudos, e atividade curricular.
 
 
 ## 🛠 Bibliotecas
